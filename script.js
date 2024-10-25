@@ -4,7 +4,7 @@ document.querySelector('.login').addEventListener('click', function(event) {
     const email = document.querySelector('input[type="text"]').value;
     const password = document.querySelector('input[type="password"]').value;
 
-    fetch('http://localhost:3000/api/login', {
+    fetch('http://174.138.6.29:7000/api/login', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
